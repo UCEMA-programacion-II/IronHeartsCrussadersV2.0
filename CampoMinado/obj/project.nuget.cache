@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nOiiLsKohioVQ5EasbprUu26v963nehpf7A28Ukk0ItWOY95IzOHzJfQWQJyQONOLV+C1bMa41ijjuSUvXMizw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cyber\\Documents\\UCEMA\\Programacion II\\Repos\\MiJuego\\CampoMinado\\CampoMinado.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

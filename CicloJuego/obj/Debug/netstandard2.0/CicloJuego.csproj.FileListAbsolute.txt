@@ -1,0 +1,12 @@
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.csprojAssemblyReference.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.csproj.CoreCompileInputs.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.AssemblyInfoInputs.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.AssemblyInfo.cs
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\bin\Debug\netstandard2.0\CicloJuego.deps.json
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\bin\Debug\netstandard2.0\CicloJuego.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\bin\Debug\netstandard2.0\CicloJuego.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\bin\Debug\netstandard2.0\CampoMinado.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\bin\Debug\netstandard2.0\CampoMinado.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.csproj.CopyComplete
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.pdb

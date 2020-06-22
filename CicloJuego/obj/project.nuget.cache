@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SsvyJQkZFH3WZsu2wfX9wihIRv9u12C5x8jAqPvhSwMZ3ATkhG9aHeICRbsYycGjZpgEtIAt8dvJfbZ0f7APzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cyber\\Documents\\UCEMA\\Programacion II\\Repos\\MiJuego\\CicloJuego\\CicloJuego.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.csprojAssemblyReference.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.csproj.CoreCompileInputs.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\MiJuego.exe.config
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\MiJuego.exe
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\MiJuego.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\CicloJuego.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\CampoMinado.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\CicloJuego.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\CampoMinado.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.csproj.CopyComplete
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.exe
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.pdb

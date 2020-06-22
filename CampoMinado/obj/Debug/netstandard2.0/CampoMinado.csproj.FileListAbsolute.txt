@@ -1,0 +1,9 @@
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.csproj.CoreCompileInputs.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.AssemblyInfoInputs.cache
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.AssemblyInfo.cs
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\bin\Debug\netstandard2.0\CampoMinado.deps.json
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\bin\Debug\netstandard2.0\CampoMinado.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\bin\Debug\netstandard2.0\CampoMinado.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.dll
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.pdb
+C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.csprojAssemblyReference.cache
