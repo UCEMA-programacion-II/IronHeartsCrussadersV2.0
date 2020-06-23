@@ -8,10 +8,13 @@ namespace CicloJuego
         public static void ejecutar(CampoMinado.Tablero tablero)
         {
             tablero.Campo.Dibujar();
-            tablero.Enemigo.Dibujar();
-            //tablero.Personaje.Dibujar();
+            tablero.Enemigo1.Dibujar();
+            tablero.Enemigo2.Dibujar();
+            tablero.Enemigo3.Dibujar();
 
-            Parallel.Invoke( () => tablero.Personaje.Dibujar());
+            tablero.Personaje.Dibujar();
+
+            //Parallel.Invoke( () => tablero.Personaje.Dibujar());
 
 
 
