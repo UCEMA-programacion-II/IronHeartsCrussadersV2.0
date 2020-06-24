@@ -10,3 +10,14 @@ C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\bin\Debu
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.csproj.CopyComplete
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.dll
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.csprojAssemblyReference.cache
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.AssemblyInfoInputs.cache
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.AssemblyInfo.cs
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\bin\Debug\netstandard2.0\CicloJuego.deps.json
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\bin\Debug\netstandard2.0\CicloJuego.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\bin\Debug\netstandard2.0\CicloJuego.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\bin\Debug\netstandard2.0\CampoMinado.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\bin\Debug\netstandard2.0\CampoMinado.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CicloJuego\obj\Debug\netstandard2.0\CicloJuego.csproj.CopyComplete

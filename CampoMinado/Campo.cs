@@ -5,6 +5,8 @@ namespace CampoMinado
 {
     public class Campo
     {
+       
+
 
         public List<Punto> Elementos { get; set; }
         public Campo()
@@ -48,7 +50,7 @@ namespace CampoMinado
         {
 
 
-            Random rnd = new Random();
+            
             this.Elementos = new List<Punto>();
 
             //dibujo paredes verticales
@@ -89,41 +91,14 @@ namespace CampoMinado
                 this.Elementos.Add(punto);
             }
 
+                                           
 
 
-
-            //for (int i = 0; i < 15; i++)
-            //{
-
-            //    Punto punto = new Punto();
-            //    punto.Elemento = 1;
-            //    punto.X = rnd.Next(1, 60);
-            //    punto.Y = rnd.Next(1, 18);
-
-
-            //    this.Elementos.Add(punto);
-
-            //}
+                                  
 
 
         }
-        public bool Colision(Personaje tanque)
-        {
-
-            foreach (Punto p in this.Elementos)
-            {
-                //if (tanque.X == p.X && tanque.Y == p.Y && p.Elemento == 3)
-                //{
-
-
-                //    return true;
-                //}
-
-            }
-
-
-            return false;
-        }
+       
 
 
     }

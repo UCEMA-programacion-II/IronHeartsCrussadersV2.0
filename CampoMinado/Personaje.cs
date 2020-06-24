@@ -7,6 +7,8 @@ namespace CampoMinado
 {
     public class Personaje
     {
+
+
         public Personaje(int fila, int columna, char orientacion)
         {
             this.fila = fila;
@@ -20,11 +22,14 @@ namespace CampoMinado
         private int  columna;
         private int filaAnterior;
         private int columnnaanterior;
+        
+
 
         public int X { get { return columna; } }
         public int Y { get { return fila; } }
         public char O { get { return orientacion; } }
-
+        
+        public bool haycolision {get; set;}
         public void Mover(ConsoleKey tecla)
         {
 
@@ -288,29 +293,31 @@ namespace CampoMinado
 
         }
 
-        public void Disparar(int x,int y, char o)
+        public void Disparar(int x,int y, char o,int xe1,int ye1,int xe2,int ye2)
         {
 
             Borrar();
 
 
+
             switch (o)
             {
                 case 'N':
-                    DispararN(x,y);
+                    DispararN(x,y,xe1,ye1,xe2,ye2);
 
                     break;
 
                 case 'S':
-                    DispararS(x,y);
+                    DispararS(x,y,xe1,ye1,xe2,ye2);
 
                     break;
 
                 case 'E':
-                    DispararE(x,y);
+                    DispararE(x,y,xe1,ye1,xe2,ye2);
                     break;
+
                 case 'O':
-                   DispararO(x,y);
+                    DispararO(x,y,xe1,ye1,xe2,ye2);
                     break;
 
 
@@ -322,7 +329,7 @@ namespace CampoMinado
         }
 
 
-        private void DispararE(int x, int y)
+        private void DispararE(int x,int y,int xe1,int ye1,int xe2,int ye2)
         {
             
 
@@ -331,6 +338,18 @@ namespace CampoMinado
             for (int i = x; i > 6; i--)
             {
                 DibujarE();
+
+                if ((i== xe1 && y ==ye1)||((i== xe2 && y ==ye2))){
+                Console.SetCursorPosition(i + 1, y);
+                Console.Write(" ");
+                this.haycolision= true;
+
+                break;
+                }
+                else {this.haycolision=false;}
+
+
+
                 Console.SetCursorPosition(i + 1, y);
                 Console.Write(" ");
 
@@ -346,20 +365,41 @@ namespace CampoMinado
                   
                 }
 
+
+
+
             }
 
         }
 
-        private void DispararO(int x, int y)
+        private void DispararO(int x,int y,int xe1,int ye1,int xe2,int ye2)
         {
             for (int i =x; i < 105; i++)
             {
+                
                 DibujarO();
+
+                
+                
+                if ((i== xe1 && y ==ye1)||((i== xe2 && y ==ye2))){
                 Console.SetCursorPosition(i - 1, y);
+                Console.Write(" ");
+                this.haycolision= true;
+                    
+
+                break;
+                }
+                else {this.haycolision=false;}
+
+
+                
+                Console.SetCursorPosition(i - 1, y);
+                
                 Console.Write(" ");
 
                 Console.SetCursorPosition(i,y);
                 Console.Write("o");
+
                 Thread.Sleep(7);
 
 
@@ -375,15 +415,25 @@ namespace CampoMinado
         }
 
 
-        private void DispararN(int x,int y)
+        private void DispararN(int x,int y,int xe1,int ye1,int xe2,int ye2)
         {
-
-
-
-
+            
             for (int i = y; i > 5; i--)
             {
                 DibujarN();
+
+
+                   if ((x== xe1 && i ==ye1)||((x== xe2 && i ==ye2))){
+                
+                    Console.SetCursorPosition(x, i + 1);
+                    Console.Write(" ");
+                    this.haycolision= true;
+                    break;
+                
+                }
+                else {this.haycolision=false;}
+
+
                 Console.SetCursorPosition(x, i + 1);
                 Console.Write(" ");
 
@@ -404,15 +454,23 @@ namespace CampoMinado
         }
 
 
-        private void DispararS(int x,int y)
+        private void DispararS(int x,int y,int xe1,int ye1,int xe2,int ye2)
         {
-
-
-
-
+                                 
             for (int i = y; i < 26; i++)
             {
                 DibujarS();
+                  if ((x== xe1 && i ==ye1)||((x== xe2 && i ==ye2))){
+                 Console.SetCursorPosition(x, i - 1);
+                Console.Write(" ");
+                this.haycolision= true;
+
+                    break;
+                
+                }
+                else {this.haycolision=false;}
+
+
                 Console.SetCursorPosition(x, i - 1);
                 Console.Write(" ");
 

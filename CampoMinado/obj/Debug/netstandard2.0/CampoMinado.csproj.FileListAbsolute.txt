@@ -7,3 +7,11 @@ C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\bin\Deb
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.dll
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.pdb
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.csprojAssemblyReference.cache
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.AssemblyInfoInputs.cache
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.AssemblyInfo.cs
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\bin\Debug\netstandard2.0\CampoMinado.deps.json
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\bin\Debug\netstandard2.0\CampoMinado.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\bin\Debug\netstandard2.0\CampoMinado.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\CampoMinado\obj\Debug\netstandard2.0\CampoMinado.csprojAssemblyReference.cache

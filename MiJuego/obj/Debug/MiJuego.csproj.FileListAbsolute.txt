@@ -10,3 +10,14 @@ C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\bin\Debug\C
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.csproj.CopyComplete
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.exe
 C:\Users\cyber\Documents\UCEMA\Programacion II\Repos\MiJuego\MiJuego\obj\Debug\MiJuego.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\MiJuego.exe.config
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\MiJuego.exe
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\MiJuego.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\CicloJuego.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\CampoMinado.dll
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\CicloJuego.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\bin\Debug\CampoMinado.pdb
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\obj\Debug\MiJuego.csprojAssemblyReference.cache
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\obj\Debug\MiJuego.csproj.CopyComplete
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\obj\Debug\MiJuego.exe
+C:\Users\megraci\Source\Repos\IronHeartsCrussadersV2.0\MiJuego\obj\Debug\MiJuego.pdb

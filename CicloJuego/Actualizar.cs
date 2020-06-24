@@ -15,8 +15,8 @@ namespace CicloJuego
             
             if (tecla == ConsoleKey.Spacebar) {
                 
-                tablero.Personaje.Disparar(tablero.Personaje.X, tablero.Personaje.Y,tablero.Personaje.O);
-            
+                tablero.Personaje.Disparar(tablero.Personaje.X, tablero.Personaje.Y,tablero.Personaje.O,tablero.Enemigo1.X,tablero.Enemigo1.Y, tablero.Enemigo2.X,tablero.Enemigo2.Y);
+                
             }
             tablero.Personaje.Mover(tecla);
 

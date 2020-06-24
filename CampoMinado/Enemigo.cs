@@ -4,186 +4,101 @@ using System.Threading;
 using System.Threading.Tasks;
 namespace CampoMinado
 {
-    class Enemigo
+    public class Enemigo
     {
                         
-            public Enemigo(int fila, int columna, char orientacion)
+            public Enemigo(int fila, int columna)
             {
                 this.fila = fila;
                 this.columna = columna;
-                this.filaAnterior = fila;
-                this.columnnaanterior = columna;
-                this.orientacion = orientacion;
+              
+               
             }
 
 
-            private char orientacion;
             private int fila;
             private int columna;
-            private int filaAnterior;
-            private int columnnaanterior;
+    
 
             public int X { get { return columna; } }
             public int Y { get { return fila; } }
-            public char O { get { return orientacion; } }
+            
 
-
-            public void Dibujar()
-            {
-
-                Borrar();
-
-
-              
-
-                
-
-
-            }
+            
 
             private void Borrar()
             {
 
 
-                Console.SetCursorPosition(this.columnnaanterior + 2, this.filaAnterior + 2);
+                Console.SetCursorPosition(this.columna + 2, this.fila + 2);
                 Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 2, this.filaAnterior + 1);
+                Console.SetCursorPosition(this.columna + 2, this.fila + 1);
                 Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 2, this.filaAnterior);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 2, this.filaAnterior - 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 2, this.filaAnterior - 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 1, this.filaAnterior + 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 1, this.filaAnterior + 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 1, this.filaAnterior);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 1, this.filaAnterior - 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior + 1, this.filaAnterior - 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior, this.filaAnterior + 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior, this.filaAnterior + 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior, this.filaAnterior);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior, this.filaAnterior - 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior, this.filaAnterior - 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 1, this.filaAnterior + 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 1, this.filaAnterior + 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 1, this.filaAnterior);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 1, this.filaAnterior - 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 1, this.filaAnterior - 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 2, this.filaAnterior + 2);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 2, this.filaAnterior + 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 2, this.filaAnterior);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 2, this.filaAnterior - 1);
-                Console.Write(" ");
-                Console.SetCursorPosition(this.columnnaanterior - 2, this.filaAnterior - 2);
-                Console.Write(" ");
-
-            }
-
-            private void DibujarN()
-            {
-
-                Console.SetCursorPosition(this.columna, this.fila - 2);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna + 1, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna + 1, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna + 1, this.fila);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna, this.fila + 1);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna - 1, this.fila);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna, this.fila - 1);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna, this.fila);
-                Console.Write("*");
-
-
-            }
-
-            private void DibujarS()
-            {
-
-                Console.SetCursorPosition(this.columna, this.fila + 2);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna + 1, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna + 1, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna + 1, this.fila);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna, this.fila + 1);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna - 1, this.fila);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna, this.fila - 1);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna, this.fila);
-                Console.Write("*");
-
-
-            }
-
-            private void DibujarE()
-            {
-
-                Console.SetCursorPosition(this.columna - 2, this.fila);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna + 1, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna + 1, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna + 1, this.fila);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna, this.fila + 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna - 1, this.fila);
-                Console.Write("*");
-                Console.SetCursorPosition(this.columna, this.fila - 1);
-                Console.Write("O");
-                Console.SetCursorPosition(this.columna, this.fila);
-                Console.Write("*");
-
-
-            }
-
-            private void DibujarO()
-            {
-
                 Console.SetCursorPosition(this.columna + 2, this.fila);
-                Console.Write("*");
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 2, this.fila - 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 2, this.fila - 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 1, this.fila + 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 1, this.fila + 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 1, this.fila);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 1, this.fila - 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna + 1, this.fila - 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna, this.fila + 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna, this.fila + 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna, this.fila);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna, this.fila - 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna, this.fila - 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 1, this.fila + 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 1, this.fila + 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 1, this.fila);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 1, this.fila - 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 1, this.fila - 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 2, this.fila + 2);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 2, this.fila + 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 2, this.fila);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 2, this.fila - 1);
+                Console.Write(" ");
+                Console.SetCursorPosition(this.columna - 2, this.fila - 2);
+                Console.Write(" ");
+
+            }
+            
+            public void CambiarUbicacion (){
+         
+                Borrar();
+                Random rnd = new Random();
+                this.columna = rnd.Next(9, 100);
+                this.fila = rnd.Next(8, 23);
+
+                Dibujar();
+
+        
+        }
+
+            public void Dibujar()
+            {
+                    Borrar();
+
                 Console.SetCursorPosition(this.columna + 1, this.fila + 1);
                 Console.Write("O");
                 Console.SetCursorPosition(this.columna - 1, this.fila - 1);
@@ -193,167 +108,29 @@ namespace CampoMinado
                 Console.SetCursorPosition(this.columna - 1, this.fila + 1);
                 Console.Write("O");
                 Console.SetCursorPosition(this.columna + 1, this.fila);
-                Console.Write("*");
+                Console.Write("O");
                 Console.SetCursorPosition(this.columna, this.fila + 1);
                 Console.Write("O");
                 Console.SetCursorPosition(this.columna - 1, this.fila);
-                Console.Write("*");
+                Console.Write("O");
                 Console.SetCursorPosition(this.columna, this.fila - 1);
                 Console.Write("O");
                 Console.SetCursorPosition(this.columna, this.fila);
-                Console.Write("*");
+                Console.Write("X");
 
 
             }
 
-            public void Disparar(int x, int y, char o)
-            {
-
-                Borrar();
-
-
-                switch (o)
-                {
-                    case 'N':
-                        DispararN(x, y);
-
-                        break;
-
-                    case 'S':
-                        DispararS(x, y);
-
-                        break;
-
-                    case 'E':
-                        DispararE(x, y);
-                        break;
-                    case 'O':
-                        DispararO(x, y);
-                        break;
-
-
-
-                }
-
-
-
-            }
-
-
-            private void DispararE(int x, int y)
-            {
-
-
-
-
-                for (int i = x; i > 6; i--)
-                {
-                    DibujarE();
-                    Console.SetCursorPosition(i + 1, y);
-                    Console.Write(" ");
-
-                    Console.SetCursorPosition(i, y);
-                    Console.Write("o");
-                    Thread.Sleep(18);
-
-
-                    if (i < 8)
-                    {
-                        Console.SetCursorPosition(7, y);
-                        Console.Write(" ");
-
-                    }
-
-                }
-
-            }
-
-            private void DispararO(int x, int y)
-            {
-                for (int i = x; i < 105; i++)
-                {
-                    DibujarO();
-                    Console.SetCursorPosition(i - 1, y);
-                    Console.Write(" ");
-
-                    Console.SetCursorPosition(i, y);
-                    Console.Write("o");
-                    Thread.Sleep(7);
-
-
-                    if (i > 103)
-                    {
-                        Console.SetCursorPosition(104, y);
-                        Console.Write(" ");
-
-                    }
+            
 
                 }
 
             }
 
 
-            private void DispararN(int x, int y)
-            {
+        
+    
 
 
 
-
-                for (int i = y; i > 5; i--)
-                {
-                    DibujarN();
-                    Console.SetCursorPosition(x, i + 1);
-                    Console.Write(" ");
-
-                    Console.SetCursorPosition(x, i);
-                    Console.Write("o");
-                    Thread.Sleep(25);
-
-
-                    if (i < 7)
-                    {
-                        Console.SetCursorPosition(x, 6);
-                        Console.Write(" ");
-
-                    }
-
-                }
-
-            }
-
-
-            private void DispararS(int x, int y)
-            {
-
-
-
-
-                for (int i = y; i < 26; i++)
-                {
-                    DibujarS();
-                    Console.SetCursorPosition(x, i - 1);
-                    Console.Write(" ");
-
-                    Console.SetCursorPosition(x, i);
-                    Console.Write("o");
-                    Thread.Sleep(25);
-
-
-                    if (i > 24)
-                    {
-                        Console.SetCursorPosition(x, 24);
-                        Console.Write(" ");
-
-                    }
-
-                }
-
-            }
-
-
-        }
-    }
-
-
-}
 
